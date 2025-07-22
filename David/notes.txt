@@ -1,0 +1,14 @@
+service_3e7crk8
+template_vacr329
+pk dexkIPyatsyDD7suz
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "dexkIPyatsyDD7suz",
+      });
+   })();
+</script>
