@@ -101,6 +101,21 @@ textarea:focus {
   left: 0;
   width: 100%;
 }
+
+nav,
+.scroll,
+.header {
+  opacity: 1;
+  visibility: visible;
+  transition: all 600ms 800ms; /*600=duration, 800=delay before start*/
+}
+.modal--open nav,
+.modal--open .scroll,
+.modal--open .header {
+  opacity: 0;
+  visibility: hidden;
+  transition: 400ms;
+}
 /* 
 
 LANDING PAGE 
