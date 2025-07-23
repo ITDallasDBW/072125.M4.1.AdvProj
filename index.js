@@ -1,3 +1,18 @@
+
+let contrastToggle = false
+
+function toggleContrast() {
+  contrastToggle = !contrastToggle;
+  if (contrastToggle) {
+  document.body.classList += " dark-theme";
+  }
+  else {
+    document.body.classList.remove("dark-theme");
+  }
+}
+
+
+
 // service_3e7crk8
 // template_vacr329
 // pk dexkIPyatsyDD7suz
