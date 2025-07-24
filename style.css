@@ -7,6 +7,9 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 p {
   line-height: 1.5;
   font-size: 16px;
@@ -193,6 +196,8 @@ LANDING PAGE
   position: fixed;
   bottom: 32px;
   right: 40px;
+  z-index: 100;
+  box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.28);
 }
 .scroll {
   position: absolute;
